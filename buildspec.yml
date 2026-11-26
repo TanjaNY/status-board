@@ -11,8 +11,6 @@ phases:
       - test -f styles.css
       - echo "Packaging the release"
 
-artifacts:
-  files:
-    - index.html
-    - styles.css
-    - appspec.yml
+ artifacts:
+   files:
+      - '**/*'
